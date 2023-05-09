@@ -32,6 +32,7 @@ html {
     --background-gradient: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     --black: #000;
     --white: #fff;
+    --nav: #6366f1;
     
   }
   
@@ -39,7 +40,7 @@ html {
 
 header {
   padding: 1rem;
-  background-color: var(--background-dark);
+  background-color: var(--nav);
   color: #fff;
 }
 
@@ -54,6 +55,10 @@ nav {
 
 nav > a {
   padding: 0 0.5rem;
+  color: var(--white);
+}
+nav > a:hover {
+  color: var(--background-dark);
 }
 
 /* Main */
